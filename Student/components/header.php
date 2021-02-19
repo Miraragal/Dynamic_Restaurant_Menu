@@ -1,3 +1,8 @@
+<?php 
+$companyName="Milo's Fine Dinning";
+include('components/arrays.php')
+?>
+
 <!DOCTYPE html>
 <html>
 
@@ -14,20 +19,9 @@
                 <img src="img/banner.jpg" alt="Milo's Fine Dinning" />
             </a>
         </div><!-- banner -->
-
         <div id='nav'>
-            <ul>
-                <li><a href='index.php'>Home</a></li>
-                <li><a href='team.php'>Team</a></li>
-                <li><a href='menu.php'>Menu</a></li>
-                <li><a href='contact.php'>Contact</a></li>
-            </ul>
+            <?php include('components/nav.php') ?>
         </div> <!-- nav -->
+
+
         <div class='content'>
-
-
-
-
-
-
-

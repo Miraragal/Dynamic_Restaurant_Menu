@@ -16,13 +16,18 @@
         <em>Friday- Sunday</em><br>
         8:00am - 11:00pm<br><br>
         <em>Monday</em><br>
-        Close<br><br>
+        Closed<br><br>
+
+        <?php include('components/store-hours.php'); ?>
+
     </div>
     <!--footer-->
-    <small>&copy; <?php echo date('Y'); echo " "."Miriam Aragon" ?></small>
+    <small>&copy; <?php echo date('Y') . " Miraragal- ";
+                    echo $companyName ?></small>
 </div> <!-- content -->
 
 </div><!-- wrapper -->
 
 </body>
+
 </html>
