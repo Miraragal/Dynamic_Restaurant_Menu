@@ -1,13 +1,14 @@
 <?php 
 $companyName="Milo's Fine Dinning";
-include('components/arrays.php')
+include('components/arrays.php');
+
 ?>
 
 <!DOCTYPE html>
 <html>
 
 <head>
-    <title>PHP <?php echo TITLE; ?></title>
+    <title> <?php echo TITLE; ?></title>
     <link href="../assets/styles.css" rel="stylesheet">
 </head>
 
