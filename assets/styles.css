@@ -194,10 +194,11 @@ input {
 
 a.button, input.button {
 	display: inline-block;
-	background: #ccc;
-	outline: solid 2px #ccc;
 	border: solid 1px white;
 	color: white;
+	background: #a04242;
+	outline: solid 2px white;
+	border-radius: 10%;
 	padding: 10px 15px;
 	margin: 20px 0;
 	text-decoration: none;
