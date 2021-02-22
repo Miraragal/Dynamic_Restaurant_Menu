@@ -212,16 +212,6 @@ a.button, input.button {
 	outline-color: #bbb;
 }
 
-.button.prev {
-	float: left;
-	background: #514933;
-	outline-color: #514933;
-}
-
-.button.prev:hover {
-	background: #494331;
-	outline-color: #494331;
-}
 
 .button.next, input.button.next {
 	background: #8ca757;
