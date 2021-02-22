@@ -146,7 +146,7 @@ sup {
 .sandbox {
 	padding: 20px;
 	background: #f8f5f1;
-	text-align: left;
+	text-align: center;
 }
 
 aside {
@@ -285,7 +285,7 @@ input.button.next {
 
 #final-example .content {
 	padding: 20px 50px 50px;
-	text-align: left;
+	text-align: center;
 }
 
 #final-example #nav {
@@ -296,7 +296,7 @@ input.button.next {
 #final-example #nav ul {
 	display: inline-block;
 	list-style: none;
-	text-align: left;
+	text-align: center;
 }
 
 #final-example #nav ul li {

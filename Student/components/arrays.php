@@ -33,10 +33,10 @@ $teamMembers = array(
                 
                     array(
                     
-                            "name"			=> "Pepo",
+                            "name"			=> "Milo",
                             "position"		=> "Owner",
-                            "bio"			=> "Pepo is the great-grandson of the original Franklin. He is the owner of Franklin's Fine Dining. He cooks a mean fritatta!",
-                            "img"			=> "Pepo"
+                            "bio"			=> "Milo is the great-grandson of the original Milo. He is the owner of Milo's Fine Dining. He cooks a mean fritatta!",
+                            "img"			=> "pepo"
                 
                          ),
                     
@@ -51,9 +51,9 @@ $teamMembers = array(
                     
                     array(
                 
-                            "name"			=> "Milo",
+                            "name"			=> "Pepo",
                             "position"		=> "Head Chef",
-                            "bio"			=> "Milo is the epitome of the phrase &ldquo;Don't judge a book by it's cover&rdquo; &mdash; You simply cannot find a better chef.",
+                            "bio"			=> "Pepo is the epitome of the phrase &ldquo;Don't judge a book by it's cover&rdquo; &mdash; You simply cannot find a better chef.",
                             "img"			=> "milo"
                 
                          ),
