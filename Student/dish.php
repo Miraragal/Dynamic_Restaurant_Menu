@@ -19,7 +19,7 @@ if (isset($_GET['item'])) {
 function suggetedTip($price, $tip)
 {
     $totalTip = $price * $tip;
-    echo money_format("%i", $totalTip);
+    echo number_format("%i", $totalTip);
 }
 ?>
 

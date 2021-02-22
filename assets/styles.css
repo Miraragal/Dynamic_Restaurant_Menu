@@ -196,7 +196,7 @@ a.button, input.button {
 	display: inline-block;
 	background: #ccc;
 	outline: solid 2px #ccc;
-	border: solid 2px white;
+	border: solid 1px white;
 	color: white;
 	padding: 10px 15px;
 	margin: 20px 0;
@@ -207,20 +207,21 @@ a.button, input.button {
 	cursor: pointer;
 }
 
-.button:hover, input.button:hover {
+/* .button:hover, input.button:hover {
 	background: #bbb;
 	outline-color: #bbb;
-}
+} */
 
 
 .button.next, input.button.next {
-	background: #8ca757;
-	outline: solid 2px #8ca757;
+	background: #a04242;
+	outline: solid 2px white;
 	float: right;
+	border-radius: 10%;
 }
 
 .button.next:hover, input.button.next:hover {
-	background: #7c9745;
+	background: #a04242 !important;
 }
 
 input.button.next {
@@ -311,11 +312,6 @@ input.button.next {
 	outline: solid 2px a04242;
 }
 
-#final-example #philosophy {
-	text-align: center;
-	font-size: 15px;
-	line-height: 22px;
-}
 
 #final-example #footer {
 	font-size: 12px;
@@ -352,6 +348,7 @@ input.button.next {
 	width: 203px;
 	float: left;
 	margin-right: 45px;
+	
 }
 
 #final-example .member:last-child {
@@ -359,7 +356,7 @@ input.button.next {
 }
 
 #final-example .member img {
-	max-width: 100%;
+	max-width: 80%;
 }
 
 #final-example .closed {
@@ -367,7 +364,7 @@ input.button.next {
 }
 
 #final-example .open {
-	color: #67b512;
+	color: #40720a;
 }
 
 #menu-items ul {

@@ -18,7 +18,7 @@ include('components/header.php');
         <div class="member">
             <img src="img/<?php echo $member['img']; ?>.png" alt="<?php echo $member['name']; ?>">
             <h3><?php echo $member['name']; ?></h3>
-            <p><?php echo $member['bio']; ?></p>
+            <p style='text-align:left'><?php echo $member['bio']; ?></p>
         </div>
     <?php
     }
